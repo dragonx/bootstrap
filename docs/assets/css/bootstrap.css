@@ -1103,6 +1103,23 @@ input[type="color"],
           border-radius: 4px;
 }
 
+input[type="text"].hide,
+input[type="password"].hide,
+input[type="datetime"].hide,
+input[type="datetime-local"].hide,
+input[type="date"].hide,
+input[type="month"].hide,
+input[type="time"].hide,
+input[type="week"].hide,
+input[type="number"].hide,
+input[type="email"].hide,
+input[type="url"].hide,
+input[type="search"].hide,
+input[type="tel"].hide,
+input[type="color"].hide {
+  display: none;
+}
+
 input,
 textarea,
 .uneditable-input {
